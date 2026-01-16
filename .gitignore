@@ -1,15 +1,96 @@
-# Environments
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+##################################
+# Virtual Environments
+##################################
+env/
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+##################################
+# Environment Variables
+##################################
 .env
 .env.*
-.env.local
-.env.dev
-.env.test
-.env.prod
+!.env.example
+!.env.sample
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
+##################################
 # Django
+##################################
+*.log
+local_settings.py
 db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+##################################
+# Django Migrations
+##################################
+**/migrations/
+!**/migrations/__init__.py
+
+##################################
+# Django REST Framework
+##################################
+*.dump
+*.bak
+
+##################################
+# Testing / Coverage
+##################################
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+##################################
+# IDEs / Editors
+##################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+##################################
+# OS
+##################################
+.DS_Store
+Thumbs.db
+
+##################################
+# Build / Distribution
+##################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+##################################
+# Frontend / Node (if applicable)
+##################################
+node_modules/
+static/dist/
+static/node_modules/
+static/bundles/
+static/bundles/**/*.js
+static/bundles/**/*.css
+static/bundles/**/*.html
+static/bundles/**/*.map
+
+##################################
+# Docker
+##################################
+docker-data/
