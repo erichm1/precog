@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[co]
+*.pyc
+.Django
+local_settings.py
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+
+# DRF
+env/
+.env/
+/.env/
+.env
+.env.example
+.env.sample
+.env.local
+.env.test
+.env.prod
+.env.dev
+.env.staging
+
+# Other
+.tox
+.eggs
+.nox
+.venv
+.coverage
+.cache
+.dist
+.build
+.migrations/
+static/dist/
+static/node_modules/
+static/bundles/
+static/bundles/*/
+static/bundles/*.js
+static/bundles/*.css
+static/bundles/*.html
+static/bundles/*.map
